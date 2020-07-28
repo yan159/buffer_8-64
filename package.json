@@ -1,0 +1,57 @@
+{
+  "author": {
+    "name": "Yan Solodovnikov",
+    "email": "uan.solodovnikov@gmail.com"
+  },
+  "browser": {
+    "./copy.js": "./typedarray/copy.js",
+    "./create.js": "./typedarray/create.js",
+    "./from.js": "./typedarray/from.js",
+    "./join.js": "./typedarray/join.js",
+    "./mapped.js": "./typedarray/mapped.js",
+    "./read.js": "./typedarray/read.js",
+    "./subarray.js": "./typedarray/subarray.js",
+    "./to.js": "./typedarray/to.js",
+    "./is.js": "./typedarray/is.js",
+    "./write.js": "./typedarray/write.js"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "base64-js": "1.0.2",
+    "to-utf8": "0.0.1"
+  },
+  "deprecated": false,
+  "description": "buffer operations",
+  "devDependencies": {
+    "tape": "~2.0.0"
+  },
+  "gitHead": "11f41e69b1ab4507027ac162981913b268445b4a",
+  "homepage": "https://github.com/chrisdickinson/bops#readme",
+  "keywords": [
+    "buffer",
+    "operations",
+    "binary"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "bops",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisdickinson/bops.git"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "testling": {
+    "files": "test/index.js",
+    "browsers": [
+      "firefox/15..nightly",
+      "chrome/20..canary",
+      "opera/11.6..latest",
+      "safari/4..latest",
+      "iphone/6",
+      "ipad/6"
+    ]
+  },
+  "version": "1.0.1"
+}
